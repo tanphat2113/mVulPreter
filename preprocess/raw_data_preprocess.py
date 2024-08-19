@@ -37,7 +37,7 @@ def label(f_vul, f_novul ,label_dict, outfile):
 
 def main():
     dataset_path = '/content/mVulPreter/'
-    raw_data_path = 'raw_data/'
+    raw_data_path = '' #'raw_data/'
     raw_data_filename = 'MSR_data_cleaned.csv'
     filter_data_filename = 'MSR_data_filtered.csv'
 
